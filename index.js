@@ -5,7 +5,7 @@ Promise.promisifyAll(redis.RedisClient.prototype)
 Promise.promisifyAll(redis.Multi.prototype)
 
 module.exports = (options, app) => {
-  let client = redis.createClient(options).on('error', (err) => {
+  const client = redis.createClient(options).on('error', (err) => {
     app.logger.error(err)
   })
 

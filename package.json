@@ -1,6 +1,6 @@
 {
   "name": "salak-redis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis for salak.",
   "main": "index.js",
   "repository": "SalakJS/salak-redis",
